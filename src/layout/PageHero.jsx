@@ -10,10 +10,8 @@ export default function PageHero({ media }) {
         className="absolute inset-0 w-full h-full object-cover"
       />
 
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-50" />
+      {/* <div className="absolute inset-0 bg-black bg-opacity-50" /> */}
 
-      {/* Content */}
       <div className="relative z-10 max-w-4xl text-center">
         <p className="text-sm sm:text-base mb-2 uppercase tracking-widest">
           Design and order your new kitchen online today
