@@ -3,6 +3,7 @@ import PageHero from '../layout/PageHero';
 import HeroBanner from '../assets/HeroBanner.jpg';
 import Navbar from '../layout/Navbar';
 import Discover from '../components/landingPage/Discover';
+import TestimonialSection from '../components/landingPage/Testimonials';
 
 export default function LandingPage() {
   return (
@@ -10,6 +11,7 @@ export default function LandingPage() {
       <Navbar />
       <PageHero media={HeroBanner} />
       <Discover />
+      <TestimonialSection />
     </div>
   );
 }
