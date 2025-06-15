@@ -5,7 +5,6 @@ export default function Discover() {
   return (
     <section className="bg-white">
       <div className="flex flex-col-reverse lg:flex-row items-center gap-8 lg:gap-12">
-        {/* Left Image */}
         <div className="w-full lg:w-1/2">
           <img
             src={HandMadeBanner}
@@ -14,7 +13,6 @@ export default function Discover() {
           />
         </div>
 
-        {/* Right Content */}
         <div className="w-full lg:w-1/2 text-center lg:text-left py-12 lg:py-0 px-6 sm:px-36 lg:pl-0 lg:pr-[5%]:pl-0 xl:pr-[15%]">
           <p className="font-roboto text-[#D4B254] text-sm md:text-[13px] text-xs uppercase tracking-widest mb-3">
             Quality craftsmanship from build to delivery

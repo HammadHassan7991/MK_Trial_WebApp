@@ -3,7 +3,6 @@ import React from 'react';
 export default function PageHero({ media }) {
   return (
     <div className="relative h-[60vh] md:h-[70vh] lg:h-[85vh] w-full flex items-center justify-center text-white overflow-hidden px-6 sm:px-12">
-      {/* Background Image */}
       <img
         src={media}
         alt="Kitchen background"
