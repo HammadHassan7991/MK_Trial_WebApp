@@ -5,7 +5,7 @@ import FacebookIcon from '../assets/Facebook.svg';
 import TwitterIcon from '../assets/Twitter.svg';
 import InstagramIcon from '../assets/Instagram.svg';
 import CartIcon from '../assets/shopping-cart.png';
-
+import SideNavbar from '../components/Navbar/SideNav';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleSidebar = () => setIsOpen(!isOpen);
@@ -72,6 +72,8 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+      {/* Sidebar for Mobile */}
+      {isOpen && <SideNavbar isOpen={isOpen} toggleSidebar={toggleSidebar} />}
     </nav>
   );
 }
