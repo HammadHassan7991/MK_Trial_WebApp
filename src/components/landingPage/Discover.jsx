@@ -15,11 +15,11 @@ export default function Discover() {
         </div>
 
         {/* Right Content */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left pr-[30%]">
-          <p className="text-highlight text-xs uppercase tracking-widest mb-3">
+        <div className="w-full lg:w-1/2 text-center lg:text-left pr-[15%]">
+          <p className="font-roboto text-[#D4B254] text-sm md:text-[13px] text-xs uppercase tracking-widest mb-3">
             Quality craftsmanship from build to delivery
           </p>
-          <h2 className="text-3xl sm:text-4xl font-semibold text-title mb-6">
+          <h2 className="font-helveticaRounded text-[#222222] sm:text-3xl lg:[42px] mb-6">
             Discover the beauty of a handmade kitchen
           </h2>
           <p className="text-body text-base leading-relaxed mb-8">
@@ -28,7 +28,7 @@ export default function Discover() {
             feugiat in finibus vitae, sollicitudin id purus. Ut imperdiet, magna
             eu pharetra tincidunt, mauris purus ultrices.
           </p>
-          <button className="bg-highlight text-black hover:text-white font-medium text-sm px-6 py-3 rounded-full border border-yellow-600 hover:bg-yellow-600 transition">
+          <button className="font-roboto md:text-[15px] border border-[#D4B254] bg-white hover:bg-[#D4B254] text-[#D4B254] hover:text-white font-medium py-3 px-12 rounded-full transition">
             ABOUT US
           </button>
         </div>

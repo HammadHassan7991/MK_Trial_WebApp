@@ -29,7 +29,7 @@ const testimonials = [
 
 export default function TestimonialSection() {
   return (
-    <section className="bg-[#F5F5F5] py-20 px-4">
+    <section className="bg-[#EEEEEE] py-20 px-4">
       <div className="maw-w-[80%] mx-auto">
         <div className="max-w-5xl mx-auto flex items-center justify-between gap-4 relative">
           {/* Left Arrow */}
@@ -39,7 +39,7 @@ export default function TestimonialSection() {
 
           {/* Swiper Content */}
           <div className="w-full max-w-3xl text-center">
-            <p className="text-xs uppercase text-highlight tracking-widest mb-2">
+            <p className="font-roboto text-[#D4B254] text-sm md:text-[13px] text-xs tracking-widest mb-2">
               What our customers say
             </p>
 
@@ -53,10 +53,12 @@ export default function TestimonialSection() {
             >
               {testimonials.map((t, i) => (
                 <SwiperSlide key={i}>
-                  <h2 className="text-2xl sm:text-3xl font-semibold mb-4">
+                  <h2 className="font-helveticaRounded text-[#222222] sm:text-3xl lg:[42px] mb-4">
                     {t.title}
                   </h2>
-                  <p className="text-body text-base mb-4">{t.content}</p>
+                  <p className="text-body text-base md:text-lg mb-4">
+                    {t.content}
+                  </p>
                   <p className="text-sm font-medium text-title mt-2">
                     {t.name}
                   </p>
@@ -71,7 +73,7 @@ export default function TestimonialSection() {
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <button className="mt-8 flex border border-yellow-600 bg-highlight text-black text-xs tracking-wider px-6 py-3 rounded-full uppercase hover:bg-yellow-600 transition">
+          <button className="mt-8 flex border border-[#D4B254] bg-[#D4B254] text-white text-xs md:text-[15px] tracking-wider px-6 py-3 rounded-full uppercase transition">
             Frequently Asked Questions
           </button>
         </div>

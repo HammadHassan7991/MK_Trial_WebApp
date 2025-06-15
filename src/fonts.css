@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'HelveticaRounded';
+  src: url('./assets/fonts/helvetica-Rounded-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}

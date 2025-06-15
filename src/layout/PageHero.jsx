@@ -10,20 +10,18 @@ export default function PageHero({ media }) {
         className="absolute inset-0 w-full h-full object-cover"
       />
 
-      {/* <div className="absolute inset-0 bg-black bg-opacity-50" /> */}
-
       <div className="relative z-10 max-w-4xl text-center">
-        <p className="text-sm sm:text-base mb-2 uppercase tracking-widest">
+        <p className="font-roboto text-sm md:text-[13px]  mb-2 uppercase tracking-widest">
           Design and order your new kitchen online today
         </p>
 
-        <h1 className="text-3xl sm:text-5xl lg:text-6xl font-semibold mb-6 leading-tight">
+        <h1 className="font-helveticaRounded text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
           Bespoke & made to measure
           <br className="block" />
           handmade kitchen design
         </h1>
 
-        <button className="bg-[#D4B254] text-white font-medium py-3 px-6 rounded-full transition">
+        <button className="font-roboto md:text-[15px] border border-[#D4B254] bg-white hover:bg-[#D4B254] text-[#D4B254] hover:text-white font-medium py-3 px-12 rounded-full transition">
           ORDER NOW
         </button>
       </div>
