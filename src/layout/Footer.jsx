@@ -35,16 +35,16 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 font-roboto text-sm md:text-[13px]">
               <li>
-                <a href="#">Shop</a>
+                <a href="/shop">Shop</a>
               </li>
               <li>
-                <a href="#">Plan My Kitchen</a>
+                <a href="/planmykitchen">Plan My Kitchen</a>
               </li>
               <li>
-                <a href="#">About Us</a>
+                <a href="/about">About Us</a>
               </li>
               <li>
-                <a href="#">Gallery</a>
+                <a href="/about">Gallery</a>
               </li>
             </ul>
           </div>
@@ -56,16 +56,16 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 font-roboto text-sm md:text-[13px]">
               <li>
-                <a href="#">FAQ</a>
+                <a href="/faqs">FAQ</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
               <li>
-                <a href="#">How to Buy</a>
+                <a href="/how-to-buy">How to Buy</a>
               </li>
               <li>
-                <a href="#">Downloads</a>
+                <a href="/downloads">Downloads</a>
               </li>
             </ul>
           </div>
@@ -77,13 +77,13 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 font-roboto text-sm md:text-[13px]">
               <li>
-                <a href="#">Delivery</a>
+                <a href="/delivery">Delivery</a>
               </li>
               <li>
-                <a href="#">Terms</a>
+                <a href="/terms">Terms</a>
               </li>
               <li>
-                <a href="#">Privacy</a>
+                <a href="/privacy">Privacy</a>
               </li>
             </ul>
           </div>
@@ -94,13 +94,13 @@ export default function Footer() {
               Follow
             </h4>
             <div className="flex gap-2 justify-center">
-              <a href="#" className="p-2 rounded-full">
+              <a href="/facebook" className="p-2 rounded-full">
                 <img src={FacebookIcon} alt="Facebook" className="w-8 h-8" />
               </a>
-              <a href="#" className="p-2 rounded-full">
+              <a href="/twitter" className="p-2 rounded-full">
                 <img src={TwitterIcon} alt="Twitter" className="w-8 h-8" />
               </a>
-              <a href="#" className="p-2 rounded-full">
+              <a href="/instagram" className="p-2 rounded-full">
                 <img src={InstagramIcon} alt="Instagram" className="w-8 h-8" />
               </a>
             </div>

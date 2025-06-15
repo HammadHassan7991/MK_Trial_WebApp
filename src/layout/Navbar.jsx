@@ -35,10 +35,13 @@ export default function Navbar() {
           </div>
           {/* Left Nav Links */}
           <div className="hidden md:flex gap-6 font-roboto text-sm md:text-[13px] tracking-wider uppercase">
-            <a href="#" className="hover:text-highlight">
+            <a href="/shop" className="hover:text-highlight">
               Shop
             </a>
-            <a href="#" className="font-roboto text-sm md:text-[13px]">
+            <a
+              href="/planmykitchen"
+              className="font-roboto text-sm md:text-[13px]"
+            >
               Plan My Kitchen
             </a>
           </div>
@@ -52,10 +55,10 @@ export default function Navbar() {
         {/* Right: Links + Button */}
         <div className="flex items-center gap-10 text-white">
           <div className="hidden md:flex gap-6 text-xs tracking-wider uppercase">
-            <a href="#" className="font-roboto text-sm md:text-[13px]">
+            <a href="/about" className="font-roboto text-sm md:text-[13px]">
               About Us
             </a>
-            <a href="#" className="font-roboto text-sm md:text-[13px]">
+            <a href="/gallery" className="font-roboto text-sm md:text-[13px]">
               Gallery
             </a>
           </div>
