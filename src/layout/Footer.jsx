@@ -94,7 +94,7 @@ export default function Footer() {
               Follow
             </h4>
             <div className="flex gap-2 justify-center">
-              <a href="/facebook" className="p-2 rounded-full">
+              <a href="/facebook" className="p-2 rounded-full ">
                 <img src={FacebookIcon} alt="Facebook" className="w-8 h-8" />
               </a>
               <a href="/twitter" className="p-2 rounded-full">
