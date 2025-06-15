@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import PageHero from '../layout/PageHero';
 import HeroBanner from '../assets/HeroBanner.jpg';
 import Navbar from '../layout/Navbar';
 import Discover from '../components/landingPage/Discover';
-import TestimonialSection from '../components/landingPage/Testimonials';
 import Footer from '../layout/Footer';
+import ShowGallery from '../components/landingPage/Gallery';
+import Loader from '../components/common/loader';
+const TestimonialSection = lazy(() =>
+  import('../components/landingPage/Testimonials')
+);
 
 export default function LandingPage() {
   return (
@@ -12,7 +16,10 @@ export default function LandingPage() {
       <Navbar />
       <PageHero media={HeroBanner} />
       <Discover />
-      <TestimonialSection />
+      <Suspense fallback={<Loader />}>
+        <TestimonialSection />
+      </Suspense>
+      <ShowGallery />
       <Footer />
     </div>
   );
