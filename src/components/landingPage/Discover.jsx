@@ -13,7 +13,7 @@ export default function Discover() {
           />
         </div>
 
-        <div className="w-full lg:w-1/2 text-center lg:text-left py-12 lg:py-0 px-6 sm:px-36 lg:pl-0 lg:pr-[5%]:pl-0 xl:pr-[15%]">
+        <div className=" w-full lg:w-1/2 text-center lg:text-left py-12 md:py-4 xl:py-0 px-6 sm:px-36 lg:pl-0 lg:pr-[5%]:pl-0 xl:pr-[15%]">
           <p className="font-roboto text-[#D4B254] text-sm md:text-[13px] text-xs uppercase tracking-widest mb-3">
             Quality craftsmanship from build to delivery
           </p>
@@ -26,7 +26,7 @@ export default function Discover() {
             feugiat in finibus vitae, sollicitudin id purus. Ut imperdiet, magna
             eu pharetra tincidunt, mauris purus ultrices.
           </p>
-          <button className="font-roboto md:text-[15px] border border-[#D4B254] bg-white hover:bg-[#D4B254] text-[#D4B254] hover:text-white font-medium py-3 px-12 rounded-full transition">
+          <button className="font-roboto text-sm md:text-[15px] border border-[#D4B254] bg-white hover:bg-[#D4B254] text-[#D4B254] hover:text-white font-medium py-3 px-12 rounded-full transition">
             ABOUT US
           </button>
         </div>

@@ -20,7 +20,6 @@ export default function SideNavbar({ isOpen, toggleSidebar }) {
           },
         }}
       >
-        <MenuItem onClick={toggleSidebar}>Close</MenuItem>
         <MenuItem>
           <Link to="/" onClick={toggleSidebar}>
             Home

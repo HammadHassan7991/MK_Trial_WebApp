@@ -62,8 +62,11 @@ export default function Navbar() {
               Gallery
             </a>
           </div>
-          <button className="font-roboto text-sm md:text-[13px] border border-white hover:border-[#D4B254] bg-transparent hover:bg-[#D4B254] text-white hover:text-white px-6 py-1.5 rounded-full flex items-center gap-2 uppercase tracking-wide transition">
+          <button className="hidden lg:flex font-roboto text-sm md:text-[13px] border border-white hover:border-[#D4B254] bg-transparent hover:bg-[#D4B254] text-white hover:text-white px-6 py-1.5 rounded-full items-center gap-2 uppercase tracking-wide transition">
             My Order
+            <img src={CartIcon} alt="Cart" className="w-4 h-4" />
+          </button>
+          <button className="lg:hidden font-roboto px-6 py-1.5 items-center gap-2 uppercase tracking-wide transition">
             <img src={CartIcon} alt="Cart" className="w-4 h-4" />
           </button>
           {/* Hamburger for mobile */}
